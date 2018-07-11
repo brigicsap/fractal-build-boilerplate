@@ -1,4 +1,4 @@
-# Shed fractal.build Starterpack
+# Fractal.build Starterpack
 
 Powered by [Fractal](https://fractal.build/).
 
