@@ -1,0 +1,13 @@
+//----------------------------------\\
+// COLORS
+//----------------------------------\\
+
+$white: map(colors, neutral, white);
+$black: map(colors, neutral, black);
+
+$grey-light: map(colors, neutral, grey-light);
+$grey-dark: map(colors, neutral, grey-dark);
+
+$primary-accent: map(colors, accents, primary);
+$secondary-accent: map(colors, accents, secondary);
+$tertiary-accent: map(colors, accents, tertiary);

@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.heading {
+    &--main {
+        font-size: 70px;
+    }
+
+    &--secondary {
+        font-size: 60px;
+    }
+
+    &--medium {
+        font-size: 54px;
+    }
+
+    &--small {
+        font-size: 44px;
+        padding: $baseSpacing/2 0;
+    }
+
+    &--xsmall {
+        font-size: 26px;
+        padding: $baseSpacing/2 0;
+    }
+}

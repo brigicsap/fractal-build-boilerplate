@@ -1,0 +1,10 @@
+{
+  "xsmall": "0.25rem",
+  "small": "0.5rem",
+  "base": "1rem",
+  "medium": "1.5rem",
+  "large": "2rem",
+  "xlarge": "3rem",
+  "xxlarge": "4rem",
+  "max": "5rem"
+}

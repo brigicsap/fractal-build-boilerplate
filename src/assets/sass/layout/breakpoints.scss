@@ -1,0 +1,32 @@
+//----------------------------------\\
+// BREAKPOINTS
+//----------------------------------\\
+
+
+// COMMON DEVICE BREAKPOINTS
+
+//----------------------------------\\
+
+@mixin bp($point) {
+    @if $point == LG {
+        @media (min-width: map(breakpoints, xlarge)) {
+            @content;
+        }
+    }
+    @else if $point == MD {
+        @media (min-width: map(breakpoints, large)) {
+            @content;
+        }
+    }
+    @else if $point == SM {
+        @media (min-width: map(breakpoints, medium)) {
+            @content;
+        }
+    }
+    @else if $point == XS {
+        @media (max-width: map(breakpoints, small)) {
+            @content;
+        }
+    }
+}
+

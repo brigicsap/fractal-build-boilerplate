@@ -1,0 +1,5 @@
+context:
+  main: 'Heading Main'
+  secondary: 'Heading Secondary'
+  medium: 'Heading Medium'
+  small: 'Heading Small'

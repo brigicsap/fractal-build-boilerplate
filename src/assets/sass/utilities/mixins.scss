@@ -1,0 +1,50 @@
+//----------------------------------\\
+// MIXINS
+//----------------------------------\\
+
+.mask {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.container {
+    @include cf;
+
+    max-width: 1234px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+}
+
+// COVER MIXIN
+@mixin cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+//HOVER MIXIN
+@mixin hover($attr, $color) {
+    &:hover,
+    &:focus,
+    &:active {
+        transition: all .2s;
+        #{$attr}: $color;
+    }
+
+    a, button {
+        transition: all .2s;
+        cursor: pointer;
+        &:hover,
+        &:focus,
+        &:active {
+            transition: all .2s;
+            #{$attr}: $color;
+        }
+    }
+}

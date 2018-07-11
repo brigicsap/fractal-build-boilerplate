@@ -1,0 +1,32 @@
+//-------------------------------------------------\\
+// SASS MANIFEST
+//-------------------------------------------------\\
+
+// GLOBAL STYLES
+//-------------------------------------------------\\
+@import 'base/normalize';
+@import 'base/colors';
+@import 'base/typography';
+
+@import 'layout/breakpoints';
+@import 'layout/flexbox';
+
+@import 'utilities/align';
+@import 'utilities/center';
+@import 'utilities/clearfix';
+@import 'utilities/hidden';
+@import 'utilities/mixins';
+@import 'utilities/spacings';
+
+
+// COMPONENTS
+//-------------------------------------------------\\
+// GLOBAL
+@import '../../components/02 Globals/site-footer/site-footer';
+
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}

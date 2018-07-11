@@ -1,0 +1,20 @@
+collated: true
+context:
+  button:
+    class: bg-primary
+    label: 'Button'
+variants:
+  - name: 'submit'
+    context:
+      button:
+        modifier: submit
+        class: bg-primary
+        type: submit
+        label: 'A submit button'
+  - name: 'link'
+    context:
+      button:
+        modifier: link
+        class: bg-secondary
+        label: 'A link'
+        url: '#'

@@ -1,0 +1,5 @@
+context:
+  img:
+    class: false
+    src: '../../images/emoji.png'
+    alt: emoji

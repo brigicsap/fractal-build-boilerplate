@@ -1,0 +1,21 @@
+context:
+  list:
+    class: inline
+    items: [
+        {
+            url: '#',
+            text: 'Item one'
+        },{
+            url: '#',
+            text: 'Item two'
+        },{
+            url: '#',
+            text: 'Item three'
+        },{
+            url: '#',
+            text: 'Item four'
+        },{
+            url: '#',
+            text: 'Item five'
+        }
+    ]

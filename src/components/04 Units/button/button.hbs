@@ -1,0 +1,12 @@
+{{#if button.url }}
+
+<a class="button {{#if button.modifier }} button--{{ button.modifier }}{{/if}} {{#if button.class }}{{ button.class }}{{/if}}"
+    href="{{ url }}">
+    {{ button.label }}
+</a>
+{{else}}
+<button class="button{{#if button.modifier }} button--{{ button.modifier }}{{/if}} {{#if button.class }}{{ button.class }}{{/if}}"
+    {{#if button.type}} type="{{ button.type }}" {{/if}}>
+    {{ button.label }}
+</button>
+{{/if}}

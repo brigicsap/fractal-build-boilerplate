@@ -1,0 +1,7 @@
+<ul class="list{{#if list.class}} list--{{ list.class }}{{/if}}">
+    {{#each list.items}}
+    <li>
+        <a href="{{ url }}" class="heading">{{{ text }}}</a>
+    </li>
+    {{/each}}
+</ul>

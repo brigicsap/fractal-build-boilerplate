@@ -1,0 +1,16 @@
+<form>
+  <div class="form">
+    <label
+        for="{{ form.name }}"
+    >
+        {{ form.label }}
+    </label>
+    <input
+        type="text"
+        {{#if form.placeholder}} placeholder="{{ form.placeholder }}"{{/if}}
+        name="{{ form.name }}"
+        {{#if form.required}} required{{/if}}
+    >
+    {{> @button }}
+  </div>
+</form>

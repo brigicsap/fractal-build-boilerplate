@@ -1,0 +1,12 @@
+{
+    "accents": {
+        "primary": "#D12136",
+        "secondary": "#F8A928",
+        "tertiary": "#13B16B"
+    },
+    "neutral": {
+        "white": "#ffffff",
+        "grey": "#A1A3A6",
+        "black": "#000000"
+    }
+}

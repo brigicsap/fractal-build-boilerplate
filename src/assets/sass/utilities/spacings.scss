@@ -1,0 +1,100 @@
+//----------------------------------\\
+// SPACINGS
+//----------------------------------\\
+
+
+
+// MARGIN
+//----------------------------------\\
+.u-mb0 {
+    margin-bottom: 0 !important;
+}
+
+.u-mb10 {
+    margin-bottom: 1rem;
+}
+
+.u-mb15 {
+    margin-bottom: 1.5rem;
+}
+
+.u-mb25 {
+    margin-bottom: 2.5rem;
+}
+
+.u-mb45 {
+    margin-bottom: 4.5rem;
+}
+
+.u-mb65 {
+    margin-bottom: 6.5rem;
+}
+
+.u-mr10 {
+    margin-right: 1rem;
+}
+
+.u-mr20 {
+    margin-right: 2rem;
+}
+
+.u-ml10 {
+    margin-left: 1rem;
+}
+
+.u-ml20 {
+    margin-left: 2rem;
+}
+
+.u-mt0 {
+    margin-top: 0px !important;
+}
+
+.u-mt5 {
+    margin-top: .5rem;
+}
+
+.u-mt10 {
+    margin-top: 1rem;
+}
+
+.u-mt15 {
+    margin-top: 1.5rem;
+}
+
+.u-mt20 {
+    margin-top: 2rem;
+}
+
+.u-mt30 {
+    margin-top: 3rem;
+}
+
+
+
+// PADDING
+//----------------------------------\\
+.u-pb0 {
+    padding-bottom: 0 !important;
+}
+
+.u-p10 {
+    padding: 1rem 0;
+}
+
+.u-p20 {
+    padding: 2rem 0;
+}
+
+.u-p30 {
+    padding: 3rem 0;
+}
+
+
+// padded break out
+.breakout {
+    margin-left : calc(50% - 50vw);
+    margin-right: calc(50% - 55vw);
+    padding-left : calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+}

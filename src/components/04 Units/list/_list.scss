@@ -1,0 +1,17 @@
+.list {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list--inline {
+    padding: $baseSpacing 0;
+}
+
+.list--inline li {
+    display: inline-block;
+    padding: $baseSpacing/2 0;
+}

@@ -1,0 +1,37 @@
+//----------------------------------\\
+// HIDDEN CLASSES
+//----------------------------------\\
+
+// Hide visually but have it available for screenreaders
+.visually-hidden {
+    display: block;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(1px);
+    visibility: hidden;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+.show-on-focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 2rem;
+}
+
+// Stop text highlighting
+%unselectable {
+    -webkit-touch-callout: none;
+    user-select: none;
+}
