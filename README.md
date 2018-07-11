@@ -38,5 +38,5 @@ Powered by [Fractal](https://fractal.build/).
 
 ## Examples
 
-[Clearleft](http://fractal.clearleft.com/)
-[24Ways](https://bits.24ways.org/)
+- [Clearleft](http://fractal.clearleft.com/)
+- [24Ways](https://bits.24ways.org/)
